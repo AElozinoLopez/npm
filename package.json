@@ -4,7 +4,7 @@
   "description": "to learn npm",
   "main": "index.js",
   "scripts": {
-    "dev": "Echolac"
+    "dev": "node app"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Elozino-Lopez/npm/issues"
   },
-  "homepage": "https://github.com/Elozino-Lopez/npm#readme"
+  "homepage": "https://github.com/Elozino-Lopez/npm#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
