@@ -1,0 +1,22 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "to learn npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elozino-Lopez/npm.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "ElozinoLopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elozino-Lopez/npm/issues"
+  },
+  "homepage": "https://github.com/Elozino-Lopez/npm#readme"
+}
