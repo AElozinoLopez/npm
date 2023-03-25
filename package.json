@@ -4,7 +4,9 @@
   "description": "to learn npm",
   "main": "index.js",
   "scripts": {
-    "dev": "node app"
+    "dev": "node src/app",
+    "prettier": "prettier --write src/",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
   }
 }
