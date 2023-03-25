@@ -14,3 +14,7 @@ const moreHelpers = require('./moreHelpers');
 console.log(moreHelpers.sayHello());
 console.log(moreHelpers.sayGoodbye());
 console.log(moreHelpers.firstName);
+
+const heavy = require('../heavy');
+console.log(heavy.file1);
+
